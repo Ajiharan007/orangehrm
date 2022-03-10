@@ -311,7 +311,6 @@ Entities :
         parameters:
           - {field: "leaveType" , getter : ['getLeaveType','getName'] }
           - {field: "dateApplied" ,class : 'FormatWithDate'}
-#          - {field: "comments" }
 
   LeaveComment:
     AccessStrategy:

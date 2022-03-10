@@ -43,7 +43,7 @@ class FormatWithLocationId implements ValueFormatter
     /**
      * @return LocationService
      */
-    public function getLocationService(): ?LocationService
+    public function getLocationService(): LocationService
     {
         if (is_null($this->locationService)) {
             $this->locationService = new LocationService();
